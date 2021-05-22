@@ -17,7 +17,9 @@ function pressIt() {
     }
     for (let i = 0; i < $(this).val().length; i++) {
       let lastChar = $(this).val()[i.length - 1];
-      if (lastChar === 'g')
+      if (lastChar === 'g') {
+        alert('G was pressed');
+      }
     }
   });
 }
