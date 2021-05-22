@@ -16,15 +16,6 @@ function submitIt() {
   })
 }
 
-function pressIt() {
-  $('#typing').on('keydown', function(event) {
-    console.log(event.key);
-    if (event.key === 'g' || event.key === "G") {
-      alert('g key was pressed.');
-    }
-  });
-}
-
 $(document).ready(function(){
 // call functions here
 getIt();
