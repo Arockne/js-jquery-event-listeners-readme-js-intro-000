@@ -10,6 +10,10 @@ function frameIt() {
   });
 }
 
+function submitIt() {
+  $('')
+}
+
 function pressIt() {
   $('#typing').on('keydown', function(event) {
     console.log(event.key);
