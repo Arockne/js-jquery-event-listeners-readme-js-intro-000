@@ -17,7 +17,11 @@ function submitIt() {
 }
 
 function pressIt() {
-  $('')
+  $('#typing').on('keydown', function(event) {
+    if (event.key === 'g') {
+      alert('You have pressed g.');
+    }
+  });
 }
 
 $(document).ready(function(){
