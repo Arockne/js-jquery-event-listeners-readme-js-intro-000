@@ -12,9 +12,6 @@ function frameIt() {
 
 function pressIt() {
   $('#typing').on('keydown', function() {
-    if ($(this).val() === 'g') {
-      alert('You have pressed g.')
-    }
     for (let i = 0; i < $(this).val().length; i++) {
       let lastChar = $(this).val()[i.length - 1];
       if (lastChar === 'g') {
